@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.example.hw2;
 
 /**
@@ -11,6 +7,8 @@ package com.example.hw2;
 public class HW2 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Reader r = new Reader();
+        Carnaval c = new Carnaval(r.read()); 
+        c.dance();
     }
 }
